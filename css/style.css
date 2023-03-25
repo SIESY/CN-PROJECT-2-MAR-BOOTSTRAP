@@ -1,0 +1,23 @@
+.background-company{
+    background-color: aqua;
+}
+.banner{
+    height: 100vh;
+    background: url("../image/juniperphoton-S1vgp2lyExA-unsplash\ -\ Copy.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+.box-service{
+    padding: auto;
+}
+.green{
+    background-color: greenyellow;
+}
+.blue{background-color: aqua;
+
+}
+.red{
+    background-color: red;
+}
