@@ -7,32 +7,37 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg background-company">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+                 </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                             <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                        <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                   </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+          </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                      <li><hr class="dropdown-divider"></li>
+                         <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
@@ -48,6 +53,45 @@
     
 
         <div class="banner">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/lorenzo-hamers-Oiye57IAyvI-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image/roberto-nickson-Yp9FdEqaCdk-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image/andrew-haimerl-wPKmaxdJt5c-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         
 
         </div>
 
@@ -55,34 +99,87 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="box services green">
+                        <div class="box services green text-center">
                             <img src="" alt="">
                             <h2>service 1</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis commodi veniam neque eaque similique obcaecati. </p>
+                                 <button type="button" class="btn btn-primary">Read Me</button>   
+                               </div>
+                             </div>
+                           <div class="col-md-4">
+                        <div class="box services red text-center">
+                       <img src="" alt="">
+                   <h2>service 2</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis commodi veniam neque eaque similique obcaecati. </p>
+                           <button type="button" class="btn btn-primary">Read Me</button>    
+                             </div>
+                               </div>
+                                 <div class="col-md-4">
+                                    <div class="box services blue text-center">
+                                      <img src="" alt="">
+                                        <h2>service 3</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis commodi veniam neque eaque similique obcaecati. </p>
+                                 <button type="button" class="btn btn-primary">Read Me</button>   
+                              </div>
+                            </div>
                          </div>
-                         </div>
-                    <div class="col-md-4">
-                        <div class="box services red">
-                            <img src="" alt="">
-                            <h2>service 2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis commodi veniam neque eaque similique obcaecati. </p>
-                         </div>
-                         </div>
-                    <div class="col-md-4">
-                        <div class="box services blue">
-                            <img src="" alt="">
-                            <h2>service 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis commodi veniam neque eaque similique obcaecati. </p>
-                         </div>
-                         </div>
-
-                        
-
-        </div>
+                       </div>
 
         <div class="article">
+          <div class="container">
+           <div class="item-article">
+             <div class="row"> 
+               <div class="col-md-7">
+                  <div class="article-text">
+                    <h1> First featurette heading. it will blow your mind</h1>
+                    <p>Some great placeholder content for the first featurette here.</p>
+                  </div>
+               </div>
+                <div class="col-md-5">
+                  <div class="article-image">
+                    <img src="image/roberto-nickson-Yp9FdEqaCdk-unsplash.jpg" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="item-article">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="article-image">
+                    <img src="image/a. kenny-eliason-yDekvyZ52dU-unsplash (1).jpg" width="100%">
+                  </div>
+                </div> 
+                <div class="col-md-7">
+                   <div class="article-text">
+                     <h1> First featurette heading. it will blow your mind</h1>
+                     <p>Some great placeholder content for the first featurette here.</p>
+                   </div>
+                </div> 
+               </div>
+             </div>
+
+             <div class="item-article">
+              <div class="row"> 
+                <div class="col-md-7">
+                   <div class="article-text">
+                     <h1> First featurette heading. it will blow your mind</h1>
+                     <p>Some great placeholder content for the first featurette here.</p>
+                   </div>
+                </div>
+                 <div class="col-md-5">
+                   <div class="article-image">
+                     <img src="image/austin-park-b5R5COcD9lk-unsplash.jpg" width="100%">
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+          </div>
         </div>
+          
+
+          
 
         <div class="footer">
 
